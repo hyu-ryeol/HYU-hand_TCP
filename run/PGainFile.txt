@@ -1,0 +1,20 @@
+[Thumb]
+DIP	2
+PIP	2
+MCP	2
+AA	2
+[Index]
+DIP	2
+PIP	2
+MCP	2
+AA	2
+[Middle]
+DIP	2
+PIP	2
+MCP	2
+AA	2
+[Ring]
+DIP	2
+PIP	2
+MCP	2
+AA	2
