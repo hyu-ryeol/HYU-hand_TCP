@@ -203,15 +203,15 @@ void MainWindow::SetTargetSend(){
     QObject *obj = sender();
 
     if(obj->objectName() == "SetTargetButton1"){
-        T_target[3] = 20816; // DIP
-        T_target[2] = 16158; // PIP
-        T_target[1] = 25542; // MCP
-        T_target[0] = 43629; // A/A
+        T_target[3] = 34000; // DIP
+        T_target[2] = 34000; // PIP
+        T_target[1] = 32768; // MCP
+        T_target[0] = 32768; // A/A
 
-        I_target[3] = 52519;
-        I_target[2] = 11713;
-        I_target[1] = 10521;
-        I_target[0] = 28258;
+        I_target[3] = 32768;
+        I_target[2] = 32768;
+        I_target[1] = 32768;
+        I_target[0] = 30000;
 
         M_target[3] = 32768;
         M_target[2] = 32768;
@@ -221,85 +221,85 @@ void MainWindow::SetTargetSend(){
         R_target[3] = 32768;
         R_target[2] = 32768;
         R_target[1] = 32768;
-        R_target[0] = 32768;
+        R_target[0] = 36000;
     }
     else if(obj->objectName() == "SetTargetButton2"){
-        T_target[3] = 27553;
-        T_target[2] = 11541;
-        T_target[1] = 19166;
-        T_target[0] = 48580;
+        T_target[3] = 33000;
+        T_target[2] = 20000;
+        T_target[1] = 27000;
+        T_target[0] = 44000;
 
         I_target[3] = 32768;
-        I_target[2] = 32768;
-        I_target[1] = 32768;
-        I_target[0] = 32768;
+        I_target[2] = 24000;
+        I_target[1] = 16000;
+        I_target[0] = 40000;
 
-        M_target[3] = 50212;
-        M_target[2] = 13963;
-        M_target[1] = 11434;
+        M_target[3] = 32768;
+        M_target[2] = 24000;
+        M_target[1] = 16000;
         M_target[0] = 32768;
 
         R_target[3] = 32768;
-        R_target[2] = 32768;
-        R_target[1] = 32768;
-        R_target[0] = 32768;
+        R_target[2] = 27000;
+        R_target[1] = 16000;
+        R_target[0] = 25000;
     }
     else if(obj->objectName() == "SetTargetButton3"){
-        T_target[3] = 28783;
-        T_target[2] = 10337;
-        T_target[1] = 13539;
-        T_target[0] = 56723;
-
-        I_target[3] = 32768;
-        I_target[2] = 32768;
-        I_target[1] = 32768;
-        I_target[0] = 32768;
-
-        M_target[3] = 32768;
-        M_target[2] = 32768;
-        M_target[1] = 32768;
-        M_target[0] = 32768;
-
-        R_target[3] = 50000;
-        R_target[2] = 13000;
-        R_target[1] = 18108;
-        R_target[0] = 40642;
-    }
-    else if(obj->objectName() == "SetTargetButton4"){
-        T_target[3] = 10000;
-        T_target[2] = 10000;
-        T_target[1] = 20194;
-        T_target[0] = 55633;
+        T_target[3] = 14000;
+        T_target[2] = 30000;
+        T_target[1] = 30000;
+        T_target[0] = 44000;
 
         I_target[3] = 50000;
+        I_target[2] = 27000;
+        I_target[1] = 19000;
+        I_target[0] = 30000;
+
+        M_target[3] = 50000;
+        M_target[2] = 24000;
+        M_target[1] = 19000;
+        M_target[0] = 32768;
+
+        R_target[3] = 55000;
+        R_target[2] = 27000;
+        R_target[1] = 19000;
+        R_target[0] = 37000;
+    }
+    else if(obj->objectName() == "SetTargetButton4"){
+        T_target[3] = 14000;
+        T_target[2] = 20000;
+        T_target[1] = 14000;
+        T_target[0] = 44000;
+
+        I_target[3] = 50000;
+        I_target[2] = 27000;
+        I_target[1] = 19000;
+        I_target[0] = 30000;
+
+        M_target[3] = 50000;
+        M_target[2] = 24000;
+        M_target[1] = 19000;
+        M_target[0] = 32768;
+
+        R_target[3] = 55000;
+        R_target[2] = 27000;
+        R_target[1] = 19000;
+        R_target[0] = 37000;
+    }
+    else if(obj->objectName() == "SetTargetButton5"){
+        T_target[3] = 10000;
+        T_target[2] = 10000;
+        T_target[1] = 10000;
+        T_target[0] = 42000;
+
+        I_target[3] = 55000;
         I_target[2] = 10000;
         I_target[1] = 10000;
         I_target[0] = 32768;
 
-        M_target[3] = 50000;
+        M_target[3] = 55000;
         M_target[2] = 10000;
         M_target[1] = 10000;
-        M_target[0] = 32768;
-
-        R_target[3] = 50000;
-        R_target[2] = 10000;
-        R_target[1] = 10000;
-        R_target[0] = 42768;
-    }
-    else if(obj->objectName() == "SetTargetButton5"){
-        T_target[3] = 32768;
-        T_target[2] = 32768;
-        T_target[1] = 32768;
-        T_target[0] = 32768;
-
-        I_target[3] = 32768;
-        I_target[2] = 32768;
-        I_target[1] = 32768;
-        I_target[0] = 32768;
-
-        M_target[3] = 32768;
-        M_target[2] = 32768;
-        M_target[1] = 32768;
         M_target[0] = 32768;
 
         R_target[3] = 32768;
@@ -307,6 +307,7 @@ void MainWindow::SetTargetSend(){
         R_target[1] = 32768;
         R_target[0] = 32768;
     }
+
 
     // Thumb
     ui->lineEdit_SP_F1_4->setText(QString::number(T_target[3])); // DIP

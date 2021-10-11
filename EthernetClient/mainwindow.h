@@ -25,10 +25,10 @@ private:
     bool prePos_flag = false;
 
     //[0]:A/A , [1]:MCP, [2]:PIP, [3]DIP
-    float T_kp[4] = {2,2,2,2};
-    float I_kp[4] = {2,2,2,2};
-    float M_kp[4] = {2,2,2,2};
-    float R_kp[4] = {2,2,2,2};
+    float T_kp[4] = {10,10,10,10};
+    float I_kp[4] = {10,10,10,10};
+    float M_kp[4] = {10,10,10,10};
+    float R_kp[4] = {10,10,10,10};
     uint16_t T_target[4] = {0x8000, 0x8000, 0x8000, 0x8000};
     uint16_t I_target[4] = {0x8000, 0x8000, 0x8000, 0x8000};
     uint16_t M_target[4] = {0x8000, 0x8000, 0x8000, 0x8000};
